@@ -46,6 +46,8 @@ Background-Removal-API--using-flash/
 
 
 ```bash
+python -m venv .venv
+.venv/scripts/activate
 python -m pip install flash
 pip install  lightning-flash
 pip install flask werkzeug opencv-python torchvision
